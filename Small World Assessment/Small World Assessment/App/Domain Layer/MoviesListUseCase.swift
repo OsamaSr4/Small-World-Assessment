@@ -22,6 +22,7 @@ class GetMoviesListUseCase: GetMoviesListUseCaseProtocol {
         self.repo.getMoviesList(page: page) { (result) in
             switch result {
             case .success(let model):
+                LocalStorage.instance.saveMoviesListResponse(model)
                 completion(.success(model))
             case .failure(let error):
                 completion(.failure(error))

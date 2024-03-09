@@ -45,6 +45,7 @@ class MovieVCViewModel {
             case .success(let moviesList):
                 self.makeUIModels(moviesList: moviesList)
             case .failure(let error):
+                loadStoredData()
                 self.delegate?.show(error: error.localizedDescription)
             }
         }
@@ -81,6 +82,11 @@ class MovieVCViewModel {
         }else{
             return uiModels.count > index ? uiModels[index] : nil
         }
+    }
+    
+    func loadStoredData(){
+        guard let data = LocalStorage.instance.getMoviesListResponse() else { return }
+        self.makeUIModels(moviesList: data)
     }
     
 }
