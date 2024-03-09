@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52A8B2762B9C5B9A00A49504 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A8B2752B9C5B9A00A49504 /* AppDelegate.swift */; };
+		52A8B2782B9C5B9A00A49504 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A8B2772B9C5B9A00A49504 /* SceneDelegate.swift */; };
+		52A8B27A2B9C5B9A00A49504 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A8B2792B9C5B9A00A49504 /* ViewController.swift */; };
+		52A8B27D2B9C5B9A00A49504 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52A8B27B2B9C5B9A00A49504 /* Main.storyboard */; };
+		52A8B27F2B9C5B9B00A49504 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52A8B27E2B9C5B9B00A49504 /* Assets.xcassets */; };
+		52A8B2822B9C5B9B00A49504 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52A8B2802B9C5B9B00A49504 /* LaunchScreen.storyboard */; };
+		52A8B28D2B9C5B9C00A49504 /* Small_World_AssessmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A8B28C2B9C5B9C00A49504 /* Small_World_AssessmentTests.swift */; };
+		52A8B2972B9C5B9C00A49504 /* Small_World_AssessmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A8B2962B9C5B9C00A49504 /* Small_World_AssessmentUITests.swift */; };
+		52A8B2992B9C5B9C00A49504 /* Small_World_AssessmentUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A8B2982B9C5B9C00A49504 /* Small_World_AssessmentUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52A8B2892B9C5B9C00A49504 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52A8B26A2B9C5B9A00A49504 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52A8B2712B9C5B9A00A49504;
+			remoteInfo = "Small World Assessment";
+		};
+		52A8B2932B9C5B9C00A49504 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52A8B26A2B9C5B9A00A49504 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52A8B2712B9C5B9A00A49504;
+			remoteInfo = "Small World Assessment";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		52A8B2722B9C5B9A00A49504 /* Small World Assessment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Small World Assessment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52A8B2752B9C5B9A00A49504 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		52A8B2772B9C5B9A00A49504 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		52A8B2792B9C5B9A00A49504 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		52A8B27C2B9C5B9A00A49504 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		52A8B27E2B9C5B9B00A49504 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52A8B2812B9C5B9B00A49504 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		52A8B2832B9C5B9B00A49504 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52A8B2882B9C5B9C00A49504 /* Small World AssessmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Small World AssessmentTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52A8B28C2B9C5B9C00A49504 /* Small_World_AssessmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Small_World_AssessmentTests.swift; sourceTree = "<group>"; };
+		52A8B2922B9C5B9C00A49504 /* Small World AssessmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Small World AssessmentUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52A8B2962B9C5B9C00A49504 /* Small_World_AssessmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Small_World_AssessmentUITests.swift; sourceTree = "<group>"; };
+		52A8B2982B9C5B9C00A49504 /* Small_World_AssessmentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Small_World_AssessmentUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52A8B26F2B9C5B9A00A49504 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52A8B2852B9C5B9C00A49504 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52A8B28F2B9C5B9C00A49504 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52A8B2692B9C5B9A00A49504 = {
+			isa = PBXGroup;
+			children = (
+				52A8B2742B9C5B9A00A49504 /* Small World Assessment */,
+				52A8B28B2B9C5B9C00A49504 /* Small World AssessmentTests */,
+				52A8B2952B9C5B9C00A49504 /* Small World AssessmentUITests */,
+				52A8B2732B9C5B9A00A49504 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52A8B2732B9C5B9A00A49504 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52A8B2722B9C5B9A00A49504 /* Small World Assessment.app */,
+				52A8B2882B9C5B9C00A49504 /* Small World AssessmentTests.xctest */,
+				52A8B2922B9C5B9C00A49504 /* Small World AssessmentUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52A8B2742B9C5B9A00A49504 /* Small World Assessment */ = {
+			isa = PBXGroup;
+			children = (
+				52A8B2752B9C5B9A00A49504 /* AppDelegate.swift */,
+				52A8B2772B9C5B9A00A49504 /* SceneDelegate.swift */,
+				52A8B2792B9C5B9A00A49504 /* ViewController.swift */,
+				52A8B27B2B9C5B9A00A49504 /* Main.storyboard */,
+				52A8B27E2B9C5B9B00A49504 /* Assets.xcassets */,
+				52A8B2802B9C5B9B00A49504 /* LaunchScreen.storyboard */,
+				52A8B2832B9C5B9B00A49504 /* Info.plist */,
+			);
+			path = "Small World Assessment";
+			sourceTree = "<group>";
+		};
+		52A8B28B2B9C5B9C00A49504 /* Small World AssessmentTests */ = {
+			isa = PBXGroup;
+			children = (
+				52A8B28C2B9C5B9C00A49504 /* Small_World_AssessmentTests.swift */,
+			);
+			path = "Small World AssessmentTests";
+			sourceTree = "<group>";
+		};
+		52A8B2952B9C5B9C00A49504 /* Small World AssessmentUITests */ = {
+			isa = PBXGroup;
+			children = (
+				52A8B2962B9C5B9C00A49504 /* Small_World_AssessmentUITests.swift */,
+				52A8B2982B9C5B9C00A49504 /* Small_World_AssessmentUITestsLaunchTests.swift */,
+			);
+			path = "Small World AssessmentUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52A8B2712B9C5B9A00A49504 /* Small World Assessment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52A8B29C2B9C5B9C00A49504 /* Build configuration list for PBXNativeTarget "Small World Assessment" */;
+			buildPhases = (
+				52A8B26E2B9C5B9A00A49504 /* Sources */,
+				52A8B26F2B9C5B9A00A49504 /* Frameworks */,
+				52A8B2702B9C5B9A00A49504 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Small World Assessment";
+			productName = "Small World Assessment";
+			productReference = 52A8B2722B9C5B9A00A49504 /* Small World Assessment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52A8B2872B9C5B9C00A49504 /* Small World AssessmentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52A8B29F2B9C5B9C00A49504 /* Build configuration list for PBXNativeTarget "Small World AssessmentTests" */;
+			buildPhases = (
+				52A8B2842B9C5B9C00A49504 /* Sources */,
+				52A8B2852B9C5B9C00A49504 /* Frameworks */,
+				52A8B2862B9C5B9C00A49504 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52A8B28A2B9C5B9C00A49504 /* PBXTargetDependency */,
+			);
+			name = "Small World AssessmentTests";
+			productName = "Small World AssessmentTests";
+			productReference = 52A8B2882B9C5B9C00A49504 /* Small World AssessmentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		52A8B2912B9C5B9C00A49504 /* Small World AssessmentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52A8B2A22B9C5B9C00A49504 /* Build configuration list for PBXNativeTarget "Small World AssessmentUITests" */;
+			buildPhases = (
+				52A8B28E2B9C5B9C00A49504 /* Sources */,
+				52A8B28F2B9C5B9C00A49504 /* Frameworks */,
+				52A8B2902B9C5B9C00A49504 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52A8B2942B9C5B9C00A49504 /* PBXTargetDependency */,
+			);
+			name = "Small World AssessmentUITests";
+			productName = "Small World AssessmentUITests";
+			productReference = 52A8B2922B9C5B9C00A49504 /* Small World AssessmentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52A8B26A2B9C5B9A00A49504 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					52A8B2712B9C5B9A00A49504 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					52A8B2872B9C5B9C00A49504 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 52A8B2712B9C5B9A00A49504;
+					};
+					52A8B2912B9C5B9C00A49504 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 52A8B2712B9C5B9A00A49504;
+					};
+				};
+			};
+			buildConfigurationList = 52A8B26D2B9C5B9A00A49504 /* Build configuration list for PBXProject "Small World Assessment" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52A8B2692B9C5B9A00A49504;
+			productRefGroup = 52A8B2732B9C5B9A00A49504 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52A8B2712B9C5B9A00A49504 /* Small World Assessment */,
+				52A8B2872B9C5B9C00A49504 /* Small World AssessmentTests */,
+				52A8B2912B9C5B9C00A49504 /* Small World AssessmentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52A8B2702B9C5B9A00A49504 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52A8B2822B9C5B9B00A49504 /* LaunchScreen.storyboard in Resources */,
+				52A8B27F2B9C5B9B00A49504 /* Assets.xcassets in Resources */,
+				52A8B27D2B9C5B9A00A49504 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52A8B2862B9C5B9C00A49504 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52A8B2902B9C5B9C00A49504 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52A8B26E2B9C5B9A00A49504 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52A8B27A2B9C5B9A00A49504 /* ViewController.swift in Sources */,
+				52A8B2762B9C5B9A00A49504 /* AppDelegate.swift in Sources */,
+				52A8B2782B9C5B9A00A49504 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52A8B2842B9C5B9C00A49504 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52A8B28D2B9C5B9C00A49504 /* Small_World_AssessmentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52A8B28E2B9C5B9C00A49504 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52A8B2972B9C5B9C00A49504 /* Small_World_AssessmentUITests.swift in Sources */,
+				52A8B2992B9C5B9C00A49504 /* Small_World_AssessmentUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52A8B28A2B9C5B9C00A49504 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52A8B2712B9C5B9A00A49504 /* Small World Assessment */;
+			targetProxy = 52A8B2892B9C5B9C00A49504 /* PBXContainerItemProxy */;
+		};
+		52A8B2942B9C5B9C00A49504 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52A8B2712B9C5B9A00A49504 /* Small World Assessment */;
+			targetProxy = 52A8B2932B9C5B9C00A49504 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		52A8B27B2B9C5B9A00A49504 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52A8B27C2B9C5B9A00A49504 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		52A8B2802B9C5B9B00A49504 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52A8B2812B9C5B9B00A49504 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52A8B29A2B9C5B9C00A49504 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		52A8B29B2B9C5B9C00A49504 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52A8B29D2B9C5B9C00A49504 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Small World Assessment/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Assessment.Small-World-Assessment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52A8B29E2B9C5B9C00A49504 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Small World Assessment/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Assessment.Small-World-Assessment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		52A8B2A02B9C5B9C00A49504 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Assessment.Small-World-AssessmentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Small World Assessment.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Small World Assessment";
+			};
+			name = Debug;
+		};
+		52A8B2A12B9C5B9C00A49504 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Assessment.Small-World-AssessmentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Small World Assessment.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Small World Assessment";
+			};
+			name = Release;
+		};
+		52A8B2A32B9C5B9C00A49504 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Assessment.Small-World-AssessmentUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Small World Assessment";
+			};
+			name = Debug;
+		};
+		52A8B2A42B9C5B9C00A49504 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Assessment.Small-World-AssessmentUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Small World Assessment";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52A8B26D2B9C5B9A00A49504 /* Build configuration list for PBXProject "Small World Assessment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52A8B29A2B9C5B9C00A49504 /* Debug */,
+				52A8B29B2B9C5B9C00A49504 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52A8B29C2B9C5B9C00A49504 /* Build configuration list for PBXNativeTarget "Small World Assessment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52A8B29D2B9C5B9C00A49504 /* Debug */,
+				52A8B29E2B9C5B9C00A49504 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52A8B29F2B9C5B9C00A49504 /* Build configuration list for PBXNativeTarget "Small World AssessmentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52A8B2A02B9C5B9C00A49504 /* Debug */,
+				52A8B2A12B9C5B9C00A49504 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52A8B2A22B9C5B9C00A49504 /* Build configuration list for PBXNativeTarget "Small World AssessmentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52A8B2A32B9C5B9C00A49504 /* Debug */,
+				52A8B2A42B9C5B9C00A49504 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52A8B26A2B9C5B9A00A49504 /* Project object */;
+}
