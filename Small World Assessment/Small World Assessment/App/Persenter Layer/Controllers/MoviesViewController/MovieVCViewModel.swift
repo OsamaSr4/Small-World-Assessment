@@ -19,12 +19,19 @@ protocol MoviesListVMDelegate: AnyObject {
     func sucessWhileFetchingData()
     func show(error msg: String)
     func moveToDetails(withMovieId id: Int)
+    func searchState(active: Bool)
 }
 
 class MovieVCViewModel {
     weak var delegate: MoviesListVMDelegate?
     private var useCase: GetMoviesListUseCaseProtocol
+    
+    
     private var uiModels = [MovieUIModel]()
+    
+    //For Search
+    private var searchedMovies = [MovieUIModel]()
+    var isActiveSearch = false
     
     
     init(useCase: GetMoviesListUseCaseProtocol) {
@@ -61,11 +68,42 @@ class MovieVCViewModel {
     
     
     func getUIModelsCount() -> Int {
-        return uiModels.count 
+        if isActiveSearch {
+            return searchedMovies.count
+        }else{
+            return uiModels.count
+        }
     }
     
     func getUIModel(atIndex index: Int) -> MovieUIModel? {
-        return uiModels.count > index ? uiModels[index] : nil
+        if isActiveSearch {
+            return searchedMovies.count > index ? searchedMovies[index] : nil
+        }else{
+            return uiModels.count > index ? uiModels[index] : nil
+        }
     }
     
+}
+
+extension MovieVCViewModel {
+    func applySearch(with text: String){
+        if text.isEmpty {
+            clearSearch()
+        }else{
+            isActiveSearch = true
+            searchedMovies.removeAll()
+            searchedMovies = uiModels.filter({
+                (data: MovieUIModel) -> Bool in
+                return data.title.range(of: text, options: .caseInsensitive) != nil})
+
+            delegate?.searchState(active: true)
+        }
+      
+    }
+    
+    func clearSearch(){
+        isActiveSearch = false
+        searchedMovies.removeAll()
+        delegate?.searchState(active: false)
+    }
 }

@@ -20,6 +20,7 @@ class MoviesViewController: UIViewController ,IdentifiableProtocol{
         // Do any additional setup after loading the view.
         self.registerCell()
         self.fetchData()
+        self.setupSearchBar()
         self.title = "Movies"
     }
     
@@ -36,11 +37,30 @@ class MoviesViewController: UIViewController ,IdentifiableProtocol{
         tableView.registerCell(name: MoviesTableViewCell.name)
         tableView.delegate = self
         tableView.dataSource = self
+        
     }
     
+    private func setupSearchBar(){
+        searchBar.placeholder = "Search Movies"
+        searchBar.delegate = self
+        searchBar.showsCancelButton = true
+    
+    }
 }
 
 extension MoviesViewController : MoviesListVMDelegate , Alertable{
+    
+    func searchState(active: Bool) {
+        if !active {
+            searchBar.endEditing(active)
+        }
+        DispatchQueue.main.async { [weak self] in
+            guard let self = self else { return }
+            self.tableView.reloadData()
+        }
+    }
+    
+    
     func sucessWhileFetchingData() {
         DispatchQueue.main.async { [weak self] in
             guard let self = self else { return }
@@ -88,16 +108,16 @@ extension MoviesViewController: UITableViewDelegate, UITableViewDataSource {
 //MARK: - UISearchBar Delegate
 extension MoviesViewController: UISearchBarDelegate {
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
-//        viewModal.applySearch(with: searchText)
+        viewModel?.applySearch(with: searchText)
     }
 
     func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
-//        searchBar.endEditing(true)
+        searchBar.endEditing(true)
     }
 
     func searchBarCancelButtonClicked(_ searchBar: UISearchBar) {
-//        searchBar.text = ""
-//        viewModal.clearSearch()
+        searchBar.text = ""
+        viewModel?.clearSearch()
     }
     
 }
