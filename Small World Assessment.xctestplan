@@ -1,0 +1,39 @@
+{
+  "configurations" : [
+    {
+      "id" : "69513738-ACB6-4784-AD1B-5D62D7640064",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : false,
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:Small World Assessment.xcodeproj",
+      "identifier" : "52A8B2712B9C5B9A00A49504",
+      "name" : "Small World Assessment"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:Small World Assessment.xcodeproj",
+        "identifier" : "52A8B2872B9C5B9C00A49504",
+        "name" : "Small World AssessmentTests"
+      }
+    },
+    {
+      "enabled" : false,
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:Small World Assessment.xcodeproj",
+        "identifier" : "52A8B2912B9C5B9C00A49504",
+        "name" : "Small World AssessmentUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
